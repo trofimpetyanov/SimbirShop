@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		812596C427B8409B00DB08B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812596C327B8409B00DB08B6 /* AppDelegate.swift */; };
 		812596C627B8409B00DB08B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812596C527B8409B00DB08B6 /* SceneDelegate.swift */; };
-		812596C827B8409B00DB08B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812596C727B8409B00DB08B6 /* ViewController.swift */; };
 		812596CB27B8409B00DB08B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812596C927B8409B00DB08B6 /* Main.storyboard */; };
 		812596CD27B8409D00DB08B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812596CC27B8409D00DB08B6 /* Assets.xcassets */; };
 		812596D027B8409D00DB08B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812596CE27B8409D00DB08B6 /* LaunchScreen.storyboard */; };
+		81C3B33627BC292E0002C7D0 /* SimbirsoftCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3B33527BC292E0002C7D0 /* SimbirsoftCollectionViewController.swift */; };
+		81C3B33927BC343C0002C7D0 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3B33827BC343C0002C7D0 /* Collection.swift */; };
+		81C3B33C27BC50040002C7D0 /* CatalogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3B33B27BC50040002C7D0 /* CatalogCollectionViewCell.swift */; };
+		81C3B33E27BC50530002C7D0 /* CatalogCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C3B33D27BC50530002C7D0 /* CatalogCollectionViewController.swift */; };
+		81E6F0B427BB9B29002E41C6 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6F0B327BB9B29002E41C6 /* Category.swift */; };
+		81E6F0B627BB9B58002E41C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6F0B527BB9B58002E41C6 /* Item.swift */; };
+		81E6F0B827BB9BDD002E41C6 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6F0B727BB9BDD002E41C6 /* Size.swift */; };
+		81E6F0BD27BBA0EC002E41C6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6F0BC27BBA0EC002E41C6 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		812596C027B8409B00DB08B6 /* MerchShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812596C327B8409B00DB08B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		812596C527B8409B00DB08B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		812596C727B8409B00DB08B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		812596CA27B8409B00DB08B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		812596CC27B8409D00DB08B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812596CF27B8409D00DB08B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812596D127B8409D00DB08B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C3B33527BC292E0002C7D0 /* SimbirsoftCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimbirsoftCollectionViewController.swift; sourceTree = "<group>"; };
+		81C3B33827BC343C0002C7D0 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		81C3B33B27BC50040002C7D0 /* CatalogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCollectionViewCell.swift; sourceTree = "<group>"; };
+		81C3B33D27BC50530002C7D0 /* CatalogCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCollectionViewController.swift; sourceTree = "<group>"; };
+		81E6F0B327BB9B29002E41C6 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		81E6F0B527BB9B58002E41C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		81E6F0B727BB9BDD002E41C6 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		81E6F0BC27BBA0EC002E41C6 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		812596C227B8409B00DB08B6 /* MerchShop */ = {
 			isa = PBXGroup;
 			children = (
-				812596C327B8409B00DB08B6 /* AppDelegate.swift */,
-				812596C527B8409B00DB08B6 /* SceneDelegate.swift */,
-				812596C727B8409B00DB08B6 /* ViewController.swift */,
-				812596C927B8409B00DB08B6 /* Main.storyboard */,
-				812596CC27B8409D00DB08B6 /* Assets.xcassets */,
-				812596CE27B8409D00DB08B6 /* LaunchScreen.storyboard */,
+				81E6F0B927BBA000002E41C6 /* Model */,
+				81C3B33A27BC4FE50002C7D0 /* View */,
+				81C3B33727BC294E0002C7D0 /* Controllers */,
+				81E6F0BE27BBB162002E41C6 /* Services */,
+				81E6F0BA27BBA017002E41C6 /* Resources */,
 				812596D127B8409D00DB08B6 /* Info.plist */,
 			);
 			path = MerchShop;
+			sourceTree = "<group>";
+		};
+		81C3B33727BC294E0002C7D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81C3B33527BC292E0002C7D0 /* SimbirsoftCollectionViewController.swift */,
+				81C3B33D27BC50530002C7D0 /* CatalogCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81C3B33A27BC4FE50002C7D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81C3B33B27BC50040002C7D0 /* CatalogCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81E6F0B927BBA000002E41C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81E6F0B327BB9B29002E41C6 /* Category.swift */,
+				81C3B33827BC343C0002C7D0 /* Collection.swift */,
+				81E6F0B527BB9B58002E41C6 /* Item.swift */,
+				81E6F0B727BB9BDD002E41C6 /* Size.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81E6F0BA27BBA017002E41C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				812596C327B8409B00DB08B6 /* AppDelegate.swift */,
+				812596C527B8409B00DB08B6 /* SceneDelegate.swift */,
+				812596C927B8409B00DB08B6 /* Main.storyboard */,
+				812596CE27B8409D00DB08B6 /* LaunchScreen.storyboard */,
+				812596CC27B8409D00DB08B6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81E6F0BE27BBB162002E41C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81E6F0BC27BBA0EC002E41C6 /* Settings.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812596C827B8409B00DB08B6 /* ViewController.swift in Sources */,
+				81C3B33627BC292E0002C7D0 /* SimbirsoftCollectionViewController.swift in Sources */,
+				81C3B33C27BC50040002C7D0 /* CatalogCollectionViewCell.swift in Sources */,
+				81C3B33E27BC50530002C7D0 /* CatalogCollectionViewController.swift in Sources */,
+				81E6F0BD27BBA0EC002E41C6 /* Settings.swift in Sources */,
+				81E6F0B627BB9B58002E41C6 /* Item.swift in Sources */,
 				812596C427B8409B00DB08B6 /* AppDelegate.swift in Sources */,
 				812596C627B8409B00DB08B6 /* SceneDelegate.swift in Sources */,
+				81E6F0B827BB9BDD002E41C6 /* Size.swift in Sources */,
+				81E6F0B427BB9B29002E41C6 /* Category.swift in Sources */,
+				81C3B33927BC343C0002C7D0 /* Collection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

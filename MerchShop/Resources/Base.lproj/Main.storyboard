@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IkO-22-t0s">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SimberSoft-->
+        <scene sceneID="AyV-eE-yh6">
+            <objects>
+                <collectionViewController id="ZVb-24-3lQ" customClass="SimbirsoftCollectionViewController" customModule="MerchShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="zCQ-V8-aLJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FA5-Ue-8Ks">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sFq-X2-z9P">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="If1-7d-MDE">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ZVb-24-3lQ" id="lhd-k9-Acv"/>
+                            <outlet property="delegate" destination="ZVb-24-3lQ" id="xCK-kJ-QQ7"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="SimberSoft" id="iXP-Uh-AB6"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Kb-Fi-ZaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031.8840579710145" y="146.65178571428569"/>
+        </scene>
+        <!--Каталог-->
+        <scene sceneID="oIL-2Z-G9s">
+            <objects>
+                <collectionViewController id="1no-dW-GpX" customClass="CatalogCollectionViewController" customModule="MerchShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QE0-Xk-B8w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DdM-5J-H26">
+                            <size key="itemSize" width="414" height="100"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="catalogCell" id="ADR-vJ-eaB" customClass="CatalogCollectionViewCell" customModule="MerchShop" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Mt7-BA-Wb8">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axp-gE-E8d">
+                                            <rect key="frame" x="16" y="0.0" width="398" height="100"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catalog Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnw-kc-nw6">
+                                                    <rect key="frame" x="0.0" y="0.0" width="318" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="bottom5" translatesAutoresizingMaskIntoConstraints="NO" id="cvJ-Ee-xQc">
+                                                    <rect key="frame" x="318" y="0.0" width="80" height="100"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="cvJ-Ee-xQc" secondAttribute="height" multiplier="4:5" id="3Ue-JP-2qe"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="axp-gE-E8d" secondAttribute="bottom" id="43b-6w-DRp"/>
+                                        <constraint firstItem="axp-gE-E8d" firstAttribute="leading" secondItem="Mt7-BA-Wb8" secondAttribute="leading" constant="16" id="CfK-fJ-hqd"/>
+                                        <constraint firstAttribute="trailing" secondItem="axp-gE-E8d" secondAttribute="trailing" id="UTh-QP-HmO"/>
+                                        <constraint firstItem="axp-gE-E8d" firstAttribute="top" secondItem="Mt7-BA-Wb8" secondAttribute="top" id="cPg-HN-5b8"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <size key="customSize" width="414" height="100"/>
+                                <connections>
+                                    <outlet property="catalogNameLabel" destination="hnw-kc-nw6" id="7OB-St-Hg8"/>
+                                    <outlet property="imageView" destination="cvJ-Ee-xQc" id="w2m-Te-hx0"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="1no-dW-GpX" id="IyZ-9h-yW0"/>
+                            <outlet property="delegate" destination="1no-dW-GpX" id="fir-CC-Q93"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Каталог" id="GYH-2v-cY7"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FUY-OU-Qnh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3792.753623188406" y="146.65178571428569"/>
+        </scene>
+        <!--Избранное-->
+        <scene sceneID="8qX-hy-sy7">
+            <objects>
+                <collectionViewController id="bTY-tq-5BN" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="81Z-KL-jex">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xcU-UB-MRY">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TGr-pw-wZS">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g2j-mC-0uI">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="bTY-tq-5BN" id="hYP-HY-0Wf"/>
+                            <outlet property="delegate" destination="bTY-tq-5BN" id="xXv-fV-awH"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Избранное" id="Vev-bb-Dnb"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hd9-I5-awh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2881" y="147"/>
+        </scene>
+        <!--Корзина-->
+        <scene sceneID="eEH-Jk-Nsl">
+            <objects>
+                <collectionViewController id="cpE-3t-C6S" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="xZy-Mp-dl1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y6T-WF-BLo">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="M0T-Ci-E2I">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="7PO-bf-4Qx">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="cpE-3t-C6S" id="HJP-rD-3Fg"/>
+                            <outlet property="delegate" destination="cpE-3t-C6S" id="mxp-rg-GeK"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Корзина" id="gm0-EO-nio"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17k-Jw-DoS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="147"/>
+        </scene>
+        <!--Simbirsoft-->
+        <scene sceneID="x7X-69-ppE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x7O-cD-KnM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Simbirsoft" image="defaultSimbirsoftIcon" selectedImage="selectedSimbirsoftIcon" id="qMo-M9-LIv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="rrt-tV-UYT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZVb-24-3lQ" kind="relationship" relationship="rootViewController" id="RpK-Sk-P5D"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ff-at-c5d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032" y="-644"/>
+        </scene>
+        <!--Каталог-->
+        <scene sceneID="ZxP-sc-V9x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wcK-gc-Q3D" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Каталог" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="VK0-c4-ZTD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="NIK-Gg-Qcx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1no-dW-GpX" kind="relationship" relationship="rootViewController" id="luZ-8O-s3m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNO-Ho-qCr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3794" y="-644"/>
+        </scene>
+        <!--Избранное-->
+        <scene sceneID="YgM-U2-SLY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LdU-ql-nyY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Избранное" image="heart" catalog="system" selectedImage="heart.fill" id="Jya-vu-4ZX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="jeL-dD-56v">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bTY-tq-5BN" kind="relationship" relationship="rootViewController" id="bvs-HQ-QNi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k9F-rP-B6S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2880" y="-644"/>
+        </scene>
+        <!--Корзина-->
+        <scene sceneID="HXu-Wb-Chi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Loz-ts-yCt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Корзина" image="bag" catalog="system" selectedImage="bag.fill" id="Nri-Ip-JTG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="8li-eR-R3s">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cpE-3t-C6S" kind="relationship" relationship="rootViewController" id="X16-Ai-VD1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHr-Lm-X3u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1962" y="-644"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kx3-7B-0T0">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="IkO-22-t0s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dsL-ae-Iyn">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="x7O-cD-KnM" kind="relationship" relationship="viewControllers" id="Sty-g7-bx3"/>
+                        <segue destination="LdU-ql-nyY" kind="relationship" relationship="viewControllers" id="Def-Df-6ju"/>
+                        <segue destination="Loz-ts-yCt" kind="relationship" relationship="viewControllers" id="RKk-hM-vGX"/>
+                        <segue destination="wcK-gc-Q3D" kind="relationship" relationship="viewControllers" id="Km2-FI-VVC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5c3-uj-yXh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428" y="-1373"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bag" catalog="system" width="128" height="128"/>
+        <image name="bag.fill" catalog="system" width="128" height="128"/>
+        <image name="bottom5" width="2000" height="2500"/>
+        <image name="defaultSimbirsoftIcon" width="25" height="25"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="selectedSimbirsoftIcon" width="25" height="25"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
