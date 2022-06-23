@@ -9,7 +9,7 @@ import Foundation
 
 struct Category {
     let name: String
-    let items: [Item]
+    let items: [CatalogItem]
 }
 
 extension Category: Codable { }

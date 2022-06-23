@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Item {
+struct CatalogItem {
     let name: String
     let description: String
     let imageName: String
@@ -16,16 +16,23 @@ struct Item {
     
     let price: Double
     let discount: Double?
+    var discountPrice: Double {
+        if let discount = discount {
+            return price * (1 - discount/100)
+        }
+        
+        return price
+    }
     
     let isHotPick: Bool
     let isNew: Bool
 }
 
-extension Item: Codable { }
+extension CatalogItem: Codable { }
 
-extension Item: Hashable {
-    static func == (lhs: Item, rhs: Item) -> Bool {
-        return lhs.name.lowercased() == rhs.name.lowercased() && lhs.description.lowercased() == rhs.description.lowercased()
+extension CatalogItem: Hashable {
+    static func == (lhs: CatalogItem, rhs: CatalogItem) -> Bool {
+        return lhs.name == rhs.name && lhs.description == rhs.description && lhs.price == rhs.price
     }
     
     func hash(into hasher: inout Hasher) {

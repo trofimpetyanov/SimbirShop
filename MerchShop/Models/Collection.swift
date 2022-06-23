@@ -10,7 +10,7 @@ import Foundation
 struct Collection {
     let name: String
     let description: String
-    let items: [Item]
+    let items: [CatalogItem]
 }
 
 extension Collection: Codable { }

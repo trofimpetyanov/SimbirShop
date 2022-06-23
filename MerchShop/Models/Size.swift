@@ -13,7 +13,11 @@ enum Size {
     case clothesSize(ClothesSize)
 }
 
-enum ClothesSize: String, Codable {
+extension Size: Codable { }
+
+extension Size: Hashable { }
+
+enum ClothesSize: String {
     case xs = "XS"
     case s = "S"
     case m = "M"
@@ -22,4 +26,4 @@ enum ClothesSize: String, Codable {
     case xxl = "XXL"
 }
 
-extension Size: Codable { }
+extension ClothesSize: Codable { }
