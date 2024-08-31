@@ -50,20 +50,20 @@ SimbirShop aims to provide users with a convenient way to explore, save, and pur
 
 | 1. Main Screen                                                                                                     | 2. Product View                                                                                       |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| <img src="https://drive.google.com/uc?export=view&id=1ATCo-gG6kvacxJ3FGWxLy5Zr67l6WQgg" width="160" />  | <img src="https://drive.google.com/uc?export=view&id=1GsvoEuNJQt8oJ7uGui7uxeTB42vl00Et" width="160" /> | 
+| <img src="https://drive.google.com/uc?export=view&id=1ATCo-gG6kvacxJ3FGWxLy5Zr67l6WQgg" width="180" />  | <img src="https://drive.google.com/uc?export=view&id=1GsvoEuNJQt8oJ7uGui7uxeTB42vl00Et" width="180" /> | 
 
 | 3. Catalog                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://drive.google.com/uc?export=view&id=1B2bIyVHdoxAQ4eZo1YfG9P-qEX9LDbMU" width="160" />  <img src="https://drive.google.com/uc?export=view&id=1v9B6tgQFI32WZ_V9nN9icJlvnADvq76X" width="160" />  <img src="https://drive.google.com/uc?export=view&id=1bhNfoVtVAJy7WZipDfA4TG7eodFAgJ5A" width="160" />  |
+| <img src="https://drive.google.com/uc?export=view&id=1B2bIyVHdoxAQ4eZo1YfG9P-qEX9LDbMU" width="180" />  <img src="https://drive.google.com/uc?export=view&id=1v9B6tgQFI32WZ_V9nN9icJlvnADvq76X" width="180" />  <img src="https://drive.google.com/uc?export=view&id=1bhNfoVtVAJy7WZipDfA4TG7eodFAgJ5A" width="180" />  |
 
 | 4. Cart                                                                                                   | 5. Checkout                                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://drive.google.com/uc?export=view&id=1QQ4XUvd-qawgg9KkeL0Bu2A54I4blSmV" width="160" /> <img src="https://drive.google.com/uc?export=view&id=1haS4MgQW5-MtZLogdeZu3cV1mjNnXpTj" width="160" /> | <img src="https://drive.google.com/uc?export=view&id=1cmgiYLuBUQH529WO7sDvJfNJCYJcoJle" width="160" /> <img src="https://drive.google.com/uc?export=view&id=1e4EsAzzwc6iqPa3dXF5G7DoxEU66MpiK" width="160" /> |
+| <img src="https://drive.google.com/uc?export=view&id=1QQ4XUvd-qawgg9KkeL0Bu2A54I4blSmV" width="180" /> <img src="https://drive.google.com/uc?export=view&id=1haS4MgQW5-MtZLogdeZu3cV1mjNnXpTj" width="180" /> | <img src="https://drive.google.com/uc?export=view&id=1cmgiYLuBUQH529WO7sDvJfNJCYJcoJle" width="180" /> <img src="https://drive.google.com/uc?export=view&id=1e4EsAzzwc6iqPa3dXF5G7DoxEU66MpiK" width="180" /> |
 
 
 | 6. Favorites                                                                                             
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://drive.google.com/uc?export=view&id=1Z9HYPxG_t9IpCd44_auDhYBCahVCtbNx" width="160" />  <img src="https://drive.google.com/uc?export=view&id=1YcLOCXDYFaWtYKlQaSPmgS_nLDu8hMEX" width="160" /> |
+| <img src="https://drive.google.com/uc?export=view&id=1Z9HYPxG_t9IpCd44_auDhYBCahVCtbNx" width="180" />  <img src="https://drive.google.com/uc?export=view&id=1YcLOCXDYFaWtYKlQaSPmgS_nLDu8hMEX" width="180" /> |
 
 ## 🛠️ Technologies Used 
 
